@@ -10,9 +10,9 @@ prob.Constraints.c3 =  x2 <= 1180320;
 prob.Constraints.c4 =  x3 <= 1111050;
 prob.Constraints.c5 =  x4 <= 28243280;
 prob.Constraints.c6 =  x5 <= 1584000;
-prob.Constraints.c7 = (x1/3) + (x2/16)  <= 66000
-prob.Constraints.c8 = (x3/45)  <= 13200
+prob.Constraints.c7 = (x1/3) + (x2/16)  <= 66000;
+prob.Constraints.c8 = (x3/45)  <= 13200;
 problem = prob2struct(prob);
-[sol,fval,exitfag,output] = linprog(problem
+[sol,fval,exitfag,output] = linprog(problem)
 
 
